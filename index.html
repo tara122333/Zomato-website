@@ -6,18 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="navbar__brand">
-                <img src="./assests/logo.png" alt="navbar__logo__image" srcset="">
+                <img src="./assests/logo.png" alt="navbar__logo__image" class="navbar_logo">
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item">Order Now</button>
+                <button class="nav__item primary_btn">Order Now</button>
             </div>
         </nav>
     </header>
-    
+    <main class="container">
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img src="./assests/food2.jpg" alt="hero image" class="hero_img">
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text">Order food from favourite restaurants near you.</h1>
+                <button class="primary_btn">Order now</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
