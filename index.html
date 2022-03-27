@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,11 +20,16 @@
                 <img src="./assests/logo.png" alt="navbar__logo__image" class="navbar_logo">
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item primary_btn">Order Now</button>
+                <button class="nav__item primary_btn">Order Food</button>
             </div>
         </nav>
     </header>
+
+
     <main class="container">
+
+
+        <!-- hero section -->
         <section class="hero__container">
             <div class="hero__image__container">
                 <img src="./assests/food2.jpg" alt="hero image" class="hero_img">
@@ -32,6 +39,118 @@
                 <button class="primary_btn">Order now</button>
             </div>
         </section>
+
+
+
+        <!-- Explore Menu -->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore our menu</h1>
+            <div class="explore__menu__gradient__bg"></div>
+            <div class="explore__menu__lists">
+
+                <!-- Burger -->
+                <div class="food__menu__card">
+                    <img src="./assests/food9.jpeg" alt="food image" class="food__image">
+                    <div class="food__menu__card__discription">
+                        <h3 class="food__title">Burger</h3>
+                        <p class="food__restaurants">Burger King, Mcdonalds, Burger Place
+                            <span style="color: red"> +3</span></p>
+                    </div>
+                </div>
+
+                <!-- Pizza -->
+                <div class="food__menu__card" id="pizza__card">
+                    <img src="./assests/food 1.jpg" alt="food image" class="food__image">
+                    <div class="food__menu__card__discription">
+                        <h3 class="food__title">Pizza</h3>
+                        <p class="food__restaurants">Pizza Hut, Domino's Pizza
+                            <span style="color: red"> +3</span></p>
+                    </div>
+                </div>
+
+                <!-- pasta -->
+                <div class="food__menu__card">
+                    <img src="./assests/food5.jpeg" alt="food image" class="food__image">
+                    <div class="food__menu__card__discription">
+                        <h3 class="food__title">Chapati</h3>
+                        <p class="food__restaurants">Burger King, Mcdonalds, Burger Place
+                            <span style="color: red"> +3</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="explore__menu__view__more">
+                <button class="primary_btn">View More</button>
+              </div>
+        </section>
+
+
+
+        <!-- Restaurants -->
+        <section class="restaurants__container">
+            <h1 class="restaurants__description">Order From 100s of restaurants</h1>
+            <div class="restaurants__flex">
+              <div class="restaurants__flex__row__one">
+                <div class="restaurant__1">
+                  <img
+                    class="restaurant__1__image"
+                    src="./assests/restaurant1.jpg"
+                    alt="restaurant__1"
+                  />
+                </div>
+                <div class="restaurant__2">
+                  <img
+                    class="restaurant__2__image"
+                    src="./assests/restaurant2.jpg"
+                    alt="restaurant__2"
+                  />
+                </div>
+              </div>
+              <div class="restaurants__flex__row__two">
+                <div class="restaurant__3">
+                  <img
+                    class="restaurant__3__image"
+                    src="./assests/restaurant3.jpg"
+                    alt="restaurant__3"
+                  />
+                </div>
+                <div class="restaurant__4">
+                  <img
+                    class="restaurant__4__image"
+                    src="./assests/restaurant1.jpg"
+                    alt="restaurant__4"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="update__container">
+            <h1 class="update__text">Stay update</h1>
+            <div class="update__user">
+              <div class="update__user__email">
+                <input type="email" placeholder="example@gmail.com">
+              </div>
+              <div class="update__user__button">
+                <button class="primary_btn">Get update</button>
+              </div>
+            </div>
+          </section>
+          <section class="gallery__container">
+            <img src="./assests/hotel.jpg" alt="hotel image" class="gallery__image">
+          </section>
     </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer__container__left">
+          <img src="./assests/logo.png" alt="logo image" class="footer__left__img">
+        </div>
+        <div class="footer__container__right">
+          <p>Pricing</p>
+          <p>Term & Condition</p>
+          <p>Partnership</p>
+          <p>career</p>
+          <p>Contact</p>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
